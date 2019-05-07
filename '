@@ -1,0 +1,258 @@
+* org mode changes
+#+BEGIN_SRC emacs-lisp
+(setq org-src-fontify-natively t
+    org-src-tab-acts-natively t
+    org-confirm-babel-evaluate nil
+    org-edit-src-content-indentation 0)
+#+END_SRC
+
+#+RESULTS:
+: 0
+
+* interface tweaks
+#+BEGIN_SRC emacs-lisp
+(setq inhibit-startup-screen t)
+(global-display-line-numbers-mode)
+(tool-bar-mode -1)
+
+(set-default-font "Fira Code-14")
+(load-theme 'gruvbox-light-soft t)
+
+(setq visible-bell 0)
+(setq ring-bell-function 'ignore)
+
+(setq-default tab-width 2)
+
+(global-hl-line-mode 1)
+(scroll-bar-mode 0)
+#+END_SRC
+
+#+RESULTS:
+
+* exec path
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'exec-path "~/bin")
+;; set emacs path to osx path
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+#+END_SRC
+
+* evil mode
+#+BEGIN_SRC emacs-lisp
+;; evil mode for vim keybindings
+(require 'evil)
+(evil-mode 1)
+;; get control U to work (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+;; (define-key evil-visual-state-map (kbd "C-u") 'evil-scroll-up)
+;; (define-key evil-insert-state-map (kbd "C-u")
+;;   (lambda ()
+;;     (interactive)
+;;     (evil-delete (point-at-bol) (point))))
+
+(require 'key-chord)
+(key-chord-mode 1)
+(key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
+#+END_SRC
+#+RESULTS:
+: evil-normal-state
+
+* ido
+#+BEGIN_SRC emacs-lisp
+;; ido mode enabled
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+#+END_SRC
+
+* org-ref
+#+BEGIN_SRC emacs-lisp
+(require 'org-ref)
+(setq org-latex-pdf-process (list "latexmk -shell-escape -bibtex -f -pdf %f"))
+
+(setq reftex-default-bibliography '("~/Documents/ND/references.bib"))
+
+;; see org-ref for use of these variables
+(setq org-ref-bibliography-notes "~/Documents/ND/notes.org"
+      org-ref-default-bibliography '("~/Documents/ND/references.bib")
+      org-ref-pdf-directory "~/Documents/ND/bibtex-pdfs/")
+
+#+END_SRC
+
+* set backup directory
+#+BEGIN_SRC emacs-lisp
+(setq backup-directory-alist `(("." . "~/.saves")))
+#+END_SRC
+
+* writing minor mode and spellchecker
+#+BEGIN_SRC emacs-lisp
+;; set spellchecker
+(setq ispell-program-name "/usr/local/bin/aspell")
+
+;; create minor mode for writing
+(define-minor-mode writer-mode
+  "Enables flyspell spellchecker, and autofill-mode for text wrapping"
+  :lighter "write mode"
+  (auto-fill-mode)
+  (flyspell-mode)
+  (wc-mode))
+#+END_SRC
+
+* smex for M-x fuzzy searching
+#+BEGIN_SRC emacs-lisp
+;; setup smex for ido fuzzy matching on M-x
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+#+END_SRC
+
+* ibuffer
+#+BEGIN_SRC emacs-lisp
+;; change buffer switching menu
+(defalias 'list-buffers 'ibuffer)
+#+END_SRC
+
+* window switching
+#+BEGIN_SRC emacs-lisp
+;; window switching
+(use-package ace-window
+	     :ensure t
+	     :init
+	     (progn
+	       (global-set-key [remap other-window] 'ace-window)
+	       (custom-set-faces
+		'(aw-leading-char-face
+		  ((t (:inherit ace-jump-face-foreground :height 3.0)))))
+	       ))
+;; turn noise off
+#+END_SRC
+* auto-complete
+#+BEGIN_SRC emacs-lisp
+(use-package auto-complete
+  :ensure t
+  :init
+  (progn
+    (ac-config-default)
+    (global-auto-complete-mode t)
+    ))
+#+END_SRC
+;;* javascript setup
+#+BEGIN_SRC emacs-lisp
+;; use web-mode for .jsx files
+(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+
+;; http://www.flycheck.org/manual/latest/index.html
+(require 'flycheck)
+
+;; turn on flychecking globally
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; disable jshint since we prefer eslint checking
+(setq-default flycheck-disabled-checkers
+							(append flycheck-disabled-checkers
+											'(javascript-jshint)))
+
+;; use eslint with web-mode for jsx files
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
+;; customize flycheck temp file prefix
+(setq-default flycheck-temp-prefix ".flycheck")
+
+;; disable json-jsonlist checking for json files
+(setq-default flycheck-disabled-checkers
+							(append flycheck-disabled-checkers
+											'(json-jsonlist)))
+
+;; use local eslint from node_modules before global
+;; http://emacs.stackexchange.com/questions/21205/flycheck-with-file-relative-eslint-executable
+(defun my/use-eslint-from-node-modules ()
+	(let* ((root (locate-dominating-file
+								(or (buffer-file-name) default-directory)
+								"node_modules"))
+				 (eslint (and root
+											(expand-file-name "node_modules/eslint/bin/eslint.js"
+																				root))))
+		(when (and eslint (file-executable-p eslint))
+			(setq-local flycheck-javascript-eslint-executable eslint))))
+(add-hook 'flycheck-mode-hook #'my/use-eslint-from-node-modules)
+
+;; adjust indents for web-mode to 2 spaces
+(defun my-web-mode-hook ()
+  "Hooks for Web mode. Adjust indents"
+  ;;; http://web-mode.org/
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2))
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+
+;; for better jsx syntax-highlighting in web-mode
+;; - courtesy of Patrick @halbtuerke
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+  (if (equal web-mode-content-type "jsx")
+    (let ((web-mode-enable-part-face nil))
+      ad-do-it)
+    ad-do-it))
+#+END_SRC
+
+#+RESULTS:
+: web-mode-highlight-part
+* lsp
+#+BEGIN_SRC emacs-lisp
+(use-package lsp-mode
+  :hook (prog-mode . lsp))
+
+(use-package lsp-ui)
+(use-package company-lsp)
+#+END_SRC
+
+#+RESULTS:
+* javascript TIDE
+#+begin_src emacs-lisp
+(use-package tide
+  :ensure t
+  :after (typescript-mode company flycheck)
+  :hook ((typescript-mode . tide-setup)
+         (typescript-mode . tide-hl-identifier-mode)
+         (before-save . tide-format-before-save)))
+
+(add-hook 'js2-mode-hook #'setup-tide-mode)
+;; configure javascript-tide checker to run after your default javascript checker
+;;(flycheck-add-next-checker 'javascript-eslint 'javascript-tide 'append)
+#+end_src
+
+#+RESULTS:
+| setup-tide-mode |
+
+* eshell clear
+#+begin_src emacs-lisp
+(defun eshell/clear ()
+  "Clear the eshell buffer."
+  (let ((inhibit-read-only t))
+    (erase-buffer)
+    (eshell-send-input)))
+#+end_src
+
+#+RESULTS:
+: eshell/clear
+* company auto-complete
+#+begin_src emacs-lisp
+(use-package company
+	:ensure t
+	:config
+	(setq company-idle-delay 0)
+	(setq company-minimum-prefix-length 3)
+	(global-company-mode t))
+#+end_src
+
+#+RESULTS:
+: t
+* COMMENT reddit
+#+begin_src emacs-lisp
+(use-package md4rd :ensure t
+  :config
+  (add-hook 'md4rd-mode-hook 'md4rd-indent-all-the-lines)
+  (setq md4rd-subs-active '(emacs programming guitar tennis))
+#+end_src
+
+#+RESULTS:
+: t

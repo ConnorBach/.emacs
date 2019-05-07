@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "Users/")
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/" . "Intro to Ireland/")
+ ("/Users/connorbach/Google Drive/Notre Dame/" . "Junior Year/")
+ ("/Users/connorbach/Google Drive/" . "Notre Dame/")
+ ("/Users/connorbach/" . "Google Drive/")
+ ("/Users/" . "connorbach/")
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/" . "alphabet_cipher/")
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/" . "alphabet-cipher/")
+ ("/Users/connorbach/Documents/projects/" . "wonderland-clojure-katas/")
+ ("/Users/connorbach/Documents/" . "projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro to Ireland/"
+ "/Users/connorbach/Documents/projects/scratch/"
+ "/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/alphabet_cipher/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "paper.org"
+ "paper.bib"
+ "outline.org"
+ "temp.org"
+ "coder.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro to Ireland/" (23707 22311 0 0) "paper.org~" "paper.org" "outline.org~" "outline.org" "../" "./")
+
+ ("/Users/connorbach/" (23707 21962 0 0) "Zotero/" "work/" "VirtualBox VMs/" "test.cpp" "src/" "scratch/" "Public/" "Pictures/" "PaladinTemp/" "Music/" "Movies/" "matlab_crash_dump.17924-1" "Library/" "iterm/" "IdeaProjects/" "gruvbox_256palette_osx.sh" "Google Drive/" "git/" "elinks/" "eclipse-workspace/" "eclipse/" "Downloads/" "Documents/" "Desktop/" "D2LOD-1.14b-Installer-enUS/" "D2-1.14b-Installer-enUS/" "configs/" "cbach1@crcfe01.crc.nd.edu" "Blizzard/" "bin/" "Applications/" "anaconda3/" "a.out" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zoomus/" ".zlogin" ".zcompdump-Connor’s MacBook Pro-5.2" ".Xauthority" ".VSCodeVim/" ".vscode/" ".vimrc.swp" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tooling/" ".tmux.conf.backup" ".tmux.conf" ".tmux/" ".swp" ".swo" ".swn" ".swm" ".swl" ".swk" ".swj" ".swi" ".swh" ".swg" ".swf" ".swe" ".subversion/" ".stack/" ".ssh/" ".spacemacs" ".rvm/" ".rustup/" ".rnd" ".python_history" ".pylint.d/" ".pyenv/" ".purple/" ".psql_history" ".profile" ".p2/" ".oracle_jre_usage/" ".oh-my-zsh/" ".nvimrc" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".multirust/" ".mozbuild/" ".mkshrc" ".mix/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".jssc/" ".irb-history" ".hushlogin" ".hgrc" ".hex/" ".gnupg/" ".gitconfig" ".ghc/" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".elinks/" ".electron/" ".eclipse/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cargo/" ".cache/" ".cabal/" ".bzexport.cache" ".bzexport" ".bundle/" ".bashrc" ".bash_sessions/" ".bash_profile-anaconda3.bak" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/bin/" (23534 30597 0 0) "zsh" "wait4path" "unlink" "test" "tcsh" "sync" "stty" "sleep" "sh" "rmdir" "rm" "pwd" "ps" "pax" "mv" "mkdir" "ls" "ln" "link" "launchctl" "ksh" "kill" "hostname" "expr" "ed" "echo" "domainname" "df" "dd" "date" "csh" "cp" "chmod" "cat" "bash" "[" "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/" (23706 53144 0 0) "UML Hw 3.gslides" "Summer 2019 Internships.gsheet" "Intro to Ireland/" "Copy of Summer 2019 Internships for Rafi.gsheet" "Copy of Summer 2019 Internships for Pat.gsheet" "Copy of Summer 2019 Internships for Pascal.gsheet" "Chip Final UML.gslides" "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro/" (23706 53108 0 0) "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/" (23391 51505 0 0) "Sophomore Year/" "Scholarship Thank You 2017.pdf" "Junior Year/" "Freshman Year/" "2018 Members.gdoc" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Google Drive/" (23706 53050 0 0) "Untitled document.gdoc" "Trinity/" "Travel List.gdoc" "Scholarship Thank You 2018.pages" "Scholarship Thank You 2017.pdf" "Projects/" "Personal/" "Passwords.docx" "Observations Bonaventure.gdoc" "Notre Dame/" "KeePass-2.34/" "Icon
+" "High School/" "Greece Expenses.gsheet" "Feeding Flowchart.html" "Exam 2 Study Guide.gdoc" "Csforgood%20(2).png" "Copy of Kirby Bach - Biography_Interview_Questions.gdoc" "Connor Bach Acceptance Agreement.jpeg" "companies.pdf.pdf" "Bach St3009 Hw4 - Line chart 2.gsheet" "Bach St3009 Hw4 - Column chart 2.gsheet" "Bach St3009 Hw4 - Column chart 1.gsheet" "Audio Track.wav" "Audio Track-6.wav" "Audio Track-5.wav" "Audio Track-4.wav" "Audio Track-3.wav" "Audio Track-2.wav" ".tmp.drivedownload/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22502 33135 0 0) "Shared/" "Guest/" "connorbach/" ".localized" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/scratch/" (23706 52988 0 0) "temp.org~" "temp.org" "temp.c" "output.txt" "exam.py" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/alphabet_cipher/" (23524 38310 0 0) "coder.clj" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/" (23704 5687 0 0) "yahoo-finance/" "xtern/" "wonderland-clojure-katas/" "valentines/" "USACO/" "twitter_analysis/" "tetris/" "test_scraper/" "test_clojure/" "streamship/" "stoic_quotes/" "Sorting-Visualization/" "shucks/" "scratch/" "root2.cpp" "roguelike/" "react-bootcamp/" "prairie/" "portrait.jpg" "PongJS/" "package-lock.json" "notes.txt" "newweb/" "net_game/" "nd_dh_guide/" "linear_regression/" "learn_rust/" "learn_rails/" "lakes/" "kbeazy/" "Interviews/" "incremental_game/" "hello/" "Hacktoberfest2018/" "hackerrank/" "H99/" "googlegames/" "googleCodeJam/" "Goldman Sachs/" "Ghost/" "fillablepdf/" "euler/" "EPIJudge/" "electron-quick-start/" "dh_rest_service/" "CTCI/" "cryptopals/" "connor_bach_site/" "brainstorming/" "bootstrap-4.0.0/" "bootstrap-3.3.7-dist 2/" "Advent2018/" "a.out" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/" (23623 5100 0 0) "WebEx/" "void-live-x86_64-20171007-lxde.iso" "ubuntu-17.10.1-desktop-amd64.iso" "Trinity/" "tomorrow-theme/" "Test/" "temp/" "TablEdit/" "SystemsProgramming/" "Sound Conversion/" "Solus-3-Budgie.iso" "solarized.zip" "solarized/" "Screen Shot 2016-11-03 at 1.02.35 AM.png" "Robot/" "RedWings/" "projects/" "portfolio-page.zip" "portfolio-page/" "Novel/" "NOTRE DAME FIGHTING IRISH _ Online Ticket Office _ Thank You For Your Order.pdf" "ndPortfolio.txt" "ND FIM Application.pages" "ND Club/" "ND/" "misc/" "MATLAB/" "LV2016LEGO/" "lubuntu-17.10.1-desktop-amd64.iso" "leetcode/" "League of Legends/" "LastBites/" "labvire/" "LabVIEW Data/" "kick.txt" "Keeping the New Media Honest.pptx" "Jurassic_Park_III.iso_.sit" "HW6.vi" "gruvbox/" "GameProject/" "Game of Life/" "FSM.jpg" "Flashdrive backup/" "final rudolph feeding (1).vi" "Final Cases/" "Feeding Flowchart.png" "FedoraMediaWriter-osx-4.1.1.dmg" "fatigue_src/" "f5e53608.zip" "extraItermColors/" "Engineering/" "en_windows_embedded_8.1_industry_pro_with_update_x64_dvd_4065122.iso" "df_osx/" "cse-20289-sp18-assignments/" "ConnorBachND_vogpfx.jpg" "connorbach/" "Connor Bach3Red.docx" "Connor Bach Presentation.pptx" "Chemistry/" "BachConnorResume.pdf" "BachConnorCV3Red.pdf" "BachConnorCoverLetter.pdf" "BachConnorCoverLetter.docx" "Bach Connor - Exam 1.docx" "Arduino/" ":q/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/" (23523 53132 0 0) "alphabet_cipher/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/" (23523 53162 0 0) "test/" "target/" "src/" "README.md" "project.clj" "LICENSE" "doc/" ".nrepl-port" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/" (23523 53132 0 0) "wonderland-number/" "tiny-maze/" "README.md" "magic-square/" "LICENSE" "images/" "fox-goose-bag-of-corn/" "doublets/" "card-game-war/" "alphabet-cipher/" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

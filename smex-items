@@ -1,0 +1,59 @@
+
+;; ----- smex-history -----
+(
+ flyspell-correct-word-before-point
+ calc
+ writer-mode
+ org-ref-help
+ help
+ elixir-mode-open-docs-stable
+ customize-themes
+)
+
+;; ----- smex-data -----
+(
+ (kill-some-buffers . 1)
+ (writer-mode . 27)
+ (eval-expression . 1)
+ (eval-buffer . 8)
+ (doi-add-bibtex-entry . 3)
+ (eshell . 24)
+ (package-install . 26)
+ (list-packages . 2)
+ (flyspell-correct-word-before-point . 96)
+ (wc-count . 8)
+ (eval-last-sexp . 1)
+ (tetris . 23)
+ (load-theme . 5)
+ (customize-themes . 20)
+ (list-buffers . 1)
+ (org-agenda . 1)
+ (term . 2)
+ (shell . 2)
+ (cider-jack-in . 9)
+ (org-table-create-or-convert-from-region . 1)
+ (quick-calc . 3)
+ (eww . 6)
+ (conf-mode . 2)
+ (org-mode . 1)
+ (org-table-insert-column . 3)
+ (toggle-scroll-bar . 1)
+ (comment-region . 2)
+ (package-refresh-contents . 6)
+ (golden-ratio . 4)
+ (golden-ratio-mode . 3)
+ (org-version . 1)
+ (tide-mode . 1)
+ (tide-restart-server . 1)
+ (tide-verify-setup . 1)
+ (golden-ratio-adjust . 1)
+ (savehist-mode . 2)
+ (md4rd . 3)
+ (calc . 8)
+ (ansi-term . 1)
+ (auto-complete-mode . 3)
+ (magit-status . 1)
+ (elixir-mode-open-docs-stable . 1)
+ (help . 1)
+ (org-ref-help . 1)
+)

@@ -1,0 +1,202 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/lib/" . "dh_rest_service2_web/")
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/" . "lib/")
+ ("/Users/connorbach/Documents/projects/dinosaurs/" . "map_objects/")
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/src/" . "clojure_sols/")
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/" . "src/")
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/" . "elixir/")
+ ("/Users/connorbach/Documents/projects/hackerrank/" . "functional/")
+ ("/Users/connorbach/Documents/projects/nd_dh_guide/" . "src/")
+ ("/Users/connorbach/Documents/projects/clojure_roguelike/src/" . "clojure_roguelike/")
+ ("/Users/connorbach/Documents/projects/clojure_roguelike/" . "src/")
+ ("/Users/connorbach/Documents/connorbach/ConnorBach.github.io/" . "_posts/")
+ ("/Users/connorbach/Documents/connorbach/" . "ConnorBach.github.io/")
+ ("/Users/connorbach/Documents/Trinity/philo/" . "final_paper/")
+ ("/Users/connorbach/Documents/Trinity/" . "compArch/")
+ ("/Users/connorbach/Documents/ND/" . "intro_to_ireland/")
+ ("/" . "Users/")
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/" . "Intro to Ireland/")
+ ("/Users/connorbach/Google Drive/Notre Dame/" . "Junior Year/")
+ ("/Users/connorbach/Google Drive/" . "Notre Dame/")
+ ("/Users/connorbach/" . "Documents/")
+ ("/Users/" . "connorbach/")
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/" . "alphabet_cipher/")
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/" . "alphabet-cipher/")
+ ("/Users/connorbach/Documents/projects/" . "dh_rest_service2/")
+ ("/Users/connorbach/Documents/" . "projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/connorbach/Documents/ND/intro_to_ireland/"
+ "/Users/connorbach/Documents/projects/"
+ "/Users/connorbach/Documents/ND/irish_lit/"
+ "/Users/connorbach/Documents/ND Club/"
+ "/Users/connorbach/Documents/ND/"
+ "/Users/connorbach/Documents/"
+ "/Users/connorbach/Documents/Trinity/compArch/"
+ "/Users/connorbach/Documents/Trinity/philo/"
+ "/Users/connorbach/Documents/Trinity/stats/"
+ "/Users/connorbach/Documents/projects/dh_rest_service2/lib/dh_rest_service2_web/"
+ "/Users/connorbach/.emacs.d/"
+ "/Users/connorbach/scratch/"
+ "/Users/connorbach/Documents/projects/nd_dh_guide/"
+ "/Users/connorbach/Documents/nd_club/"
+ "/Users/connorbach/Documents/projects/dinosaurs/map_objects/"
+ "/Users/connorbach/Documents/projects/dinosaurs/"
+ "/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/src/clojure_sols/"
+ "/Users/connorbach/Documents/projects/hackerrank/functional/elixir/"
+ "/Users/connorbach/Documents/projects/hackerrank/functional/"
+ "/Users/connorbach/Documents/projects/hackerrank/functional/clojure/"
+ "/Users/connorbach/Documents/projects/hackerrank/"
+ "/Users/connorbach/Documents/leetcode/"
+ "/Users/connorbach/Desktop/"
+ "/Users/connorbach/Documents/Trinity/"
+ "/Users/connorbach/Documents/projects/team_dungeon/"
+ "/Users/connorbach/"
+ "/Users/connorbach/Documents/projects/nd_dh_guide/src/"
+ "/Users/connorbach/Documents/Trinity/philo/final_paper/"
+ "/Users/connorbach/Documents/projects/clojure_roguelike/src/clojure_roguelike/"
+ "/Users/connorbach/Documents/projects/clojure_roguelike/"
+ "/Users/connorbach/Documents/projects/ctetris/"
+ "/Users/connorbach/Downloads/"
+ "/Users/connorbach/Documents/connorbach/ConnorBach.github.io/_posts/"
+ "/Users/connorbach/Documents/misc/"
+ "/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro to Ireland/"
+ "/Users/connorbach/Documents/projects/scratch/"
+ "/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/alphabet_cipher/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "paper.org"
+ "ideas.org"
+ "jd.bib"
+ "scratch"
+ "temp.org"
+ "outline.org"
+ "joyce_dylan.org"
+ "NOTRE DAME FIGHTING IRISH | Online Ticket Office | Thank You For Your Order.pdf"
+ "ndPortfolio.txt"
+ "finalProject.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/connorbach/Documents/ND/irish_lit/" (23752 20056 0 0) "outline.tex" "outline.pdf" "outline.org" "joyce_dylan.tex" "joyce_dylan.pdf" "joyce_dylan.org" "joyce_dylan.bib" "joyce_dylan.bbl" "jd.bib" ".git/" "../" "./")
+
+ ("/Users/connorbach/Documents/ND Club/" (22795 19218 0 0) "mynotredame_responsibility_statement_ccg.pdf" "Connor_Bach_forms_admin_documentation.pdf" "2017_golf_outing_form.docx" "../" "./")
+
+ ("/Users/connorbach/Documents/Trinity/compArch/" (23747 41990 0 0) "mux8_16bit.vhd" "finalProject.tex" "finalProject.pdf" "finalProject.org" "finalExamNotes.org" "finalExam.org" "decoder_2to4.vhdl" "bus.md" "../" "./")
+
+ ("/Users/connorbach/Documents/Trinity/philo/" (23747 2945 0 0) "politics/" "final_paper/" "final_exam.org" "408.org" "402.tex" "402.pdf" "402.org" "401.tex" "401.pdf" "401.org" "326.md" "325.md" "311.md" "225.md" "218.md" "211.md" "0205.md" "0204.md" ".DS_Store" ".#final_exam.org" "#final_exam.org#" "../" "./")
+
+ ("/Users/connorbach/" (23745 42072 0 0) "Zotero/" "work/" "VirtualBox VMs/" "test.cpp" "src/" "scratch/" "Public/" "Pictures/" "PaladinTemp/" "Music/" "Movies/" "matlab_crash_dump.17924-1" "Library/" "iterm/" "IdeaProjects/" "gruvbox_256palette_osx.sh" "Google Drive/" "git/" "elinks/" "eclipse-workspace/" "eclipse/" "Downloads/" "Documents/" "Desktop/" "D2LOD-1.14b-Installer-enUS/" "D2-1.14b-Installer-enUS/" "configs/" "cbach1@crcfe01.crc.nd.edu" "Blizzard/" "bin/" "Applications/" "anaconda3/" "a.out" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zshenv" ".zsh_history" ".zoomus/" ".zlogin" ".zcompdump-Connor’s MacBook Pro-5.2" ".Xauthority" ".VSCodeVim/" ".vscode/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tooling/" ".tmux.conf.backup" ".tmux.conf" ".tmux/" ".swp" ".swo" ".swn" ".swm" ".swl" ".swk" ".swj" ".swi" ".swh" ".swg" ".swf" ".swe" ".subversion/" ".stack/" ".ssh/" ".spacemacs" ".saves/" ".rvm/" ".rustup/" ".rnd" ".python_history" ".pylint.d/" ".pyenv/" ".purple/" ".psql_history" ".profile" ".p2/" ".oracle_jre_usage/" ".oh-my-zsh/" ".nvimrc" ".npm/" ".node_repl_history" ".node-gyp/" ".netrc" ".multirust/" ".mozbuild/" ".mkshrc" ".mix/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".jssc/" ".irb-history" ".hushlogin" ".hgrc" ".hex/" ".gnupg/" ".gitconfig" ".ghc/" ".gem/" ".emacs~" ".emacs.d/" ".elinks/" ".electron/" ".eclipse/" ".DS_Store" ".cups/" ".config/" ".clojure/" ".CFUserTextEncoding" ".cargo/" ".cache/" ".cabal/" ".bzexport.cache" ".bzexport" ".bundle/" ".bashrc" ".bash_sessions/" ".bash_profile-anaconda3.bak" ".bash_profile" ".bash_history" ".atom/" ".aspell.en.pws" ".aspell.en.prepl" ".android/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/lib/dh_rest_service2_web/" (23744 62548 0 0) "views/" "templates/" "router.ex" "gettext.ex" "endpoint.ex" "controllers/" "channels/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/lib/dh_rest_service2/" (23744 62548 0 0) "repo.ex" "application.ex" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/lib/" (23744 62548 0 0) "dh_rest_service2_web.ex" "dh_rest_service2_web/" "dh_rest_service2.ex" "dh_rest_service2/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dh_rest_service2/" (23744 62858 0 0) "test/" "README.md" "priv/" "mix.lock" "mix.exs" "lib/" "deps/" "config/" "assets/" "_build/" ".gitignore" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/" (23744 62548 0 0) "yahoo-finance/" "xtern/" "wonderland-clojure-katas/" "web_server/" "valentines/" "USACO/" "twitter_analysis/" "tetris/" "test_scraper/" "test_clojure/" "team_dungeon/" "streamship/" "stoic_quotes/" "Sorting-Visualization/" "shucks/" "scratch/" "root2.cpp" "roguelike/" "react-bootcamp/" "prairie/" "portrait.jpg" "PongJS/" "package-lock.json" "notes.txt" "newweb/" "net_game/" "nd_dh_guide/" "linear_regression/" "learn_rust/" "learn_rails/" "lakes/" "kbeazy/" "Interviews/" "incremental_game/" "ideas.org" "hello/" "Hacktoberfest2018/" "hackerrank/" "H99/" "googlegames/" "googleCodeJam/" "Goldman Sachs/" "Ghost/" "fillablepdf/" "euler/" "EPIJudge/" "electron-quick-start/" "dinosaurs/" "dh_rest_service2/" "dh_rest_service/" "ctetris/" "CTCI/" "cryptopals/" "connor_bach_site/" "clojure_roguelike/" "brainstorming/" "bootstrap-4.0.0/" "bootstrap-3.3.7-dist 2/" "Advent2018/" "a.out" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/Trinity/stats/" (23744 38665 0 0) "midterm2018.md" "midterm2.md" "midterm.md" "hw4_3.py" "hw2_4.py" "hw2_1c.py" "finalNotes.org" "2017_2dii.py" "../" "./")
+
+ ("/Users/connorbach/.emacs.d/" (23744 37313 0 0) "url/" "transient/" "smex-items" "request/" "network-security.data" "myinit.org~" "myinit.org" "myinit.el" "init.el~" "init.el" "ido.last~" "ido.last" "history" "games/" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".sx/" "'" "../" "./")
+
+ ("/Users/connorbach/Downloads/" (23740 64966 0 0) "Zotero-5.0.25.dmg" "ZoomInstallOnly.pkg" "ZoomInstaller.pkg" "zoo.c" "XpultTool.zip" "Writeup.pdf" "Writeup.docx" "Writeup (2).pdf" "Writeup (1).pdf" "workshop.ics" "wordpress-5.0.3.zip" "wordpress/" "Windows Embedded 8.1 Industry Pro with Update (x64) - DVD (English)/" "WiFi_JoinNow_Wrapper.dmg" "What The Program.wav" "weeping willow.wav" "WeatherDataA.txt" "waveform2.png" "waveform.png" "waveform(1).png" "waveform(1).jpg" "VSCode-darwin-stable.zip" "void-live-x86_64-20171007-lxde.iso" "Visual Studio Code.app/" "VirtualBox-5.1.6-110634-OSX.dmg" "verilog-20180221T221952Z-001.zip" "verilog/" "venus.jpg" "Utilitarianism+Fall2016.ppt" "UserManual.pdf" "USAR Rulebook.pdf" "US Intern PDF.docx" "US Intern PDF-2.docx" "US Intern PDF-1.docx" "updated move forward sub vi.vi" "updated counter control square.vi" "updated 90 degree turn sub vi.vi" "UPDATED 2.7.18- Interhall Team Entry Form 7.24.17.pdf" "untitled.pdf" "untitled-1.pdf" "untitled (2).pdf" "untitled (1).pdf" "unnamed.png" "ubuntu-font-family-0.83.zip" "ubuntu-font-family-0.83/" "ubuntu-17.10.1-desktop-amd64.iso" "turnLoop.m" "TrillSammyTypeTRAP.mp3" "Transferee_Website_User_Guide_2017_(2).pdf" "trackball.js" "TLCL-17.10.pdf" "Thunderbird 52.7.0.dmg" "Thumbnail_Large.PNG" "Theory_Hw_6.pdf" "Theory_Hw_6(1).pdf" "Theory_Hw_5.pdf" "Theory_Hw_5(1).pdf" "Theory_Hw_4.pdf" "Theory_Hw_2.pdf" "Theory_Hw_2-1.pdf" "Theory_Hw_1.pdf" "TestSheet.docx" "Test2ReviewTentative-preliminary.doc" "tefvx.dmg" "TechnicalManual.pdf" "TechCareerPath_Mike.pdf" "TCD Accommodation Information Spring 2019.docx" "systemRTL.pdf" "system_tb.v" "system_de2.v" "system.pdf" "syllabus.pdf" "Sweet Nuthin.m4a" "sunset-1373171.jpg" "sun.jpg" "Study Plan While Abroad.pdf" "Study Abroad Personal Statement.pdf" "Student View for Bach, Connor Dillon - 901925533.pdf" "steam.dmg" "startbootstrap-landing-page-gh-pages.zip" "startbootstrap-grayscale-gh-pages.zip" "startbootstrap-grayscale-gh-pages/" "startbootstrap-creative-gh-pages.zip" "startbootstrap-creative-gh-pages/" "StarCraft-Setup.zip" "StarCraft Launcher.app/" "ST3009.doc" "SS X T PAIN.wav" "square.js" "square.html" "square-bouncing.js" "square-bouncing.html" "Spring Semester 2018.ics" "Spring Semester 2017.ics" "SpotifyInstaller.zip" "SPLIT.wav" "Spectacle.app/" "Spectacle+1.2.zip" "spacemacs-master.zip" "spacemacs-master/" "source-code-pro-variable-fonts.zip" "source-code-pro-variable-fonts/" "Solutions.docx" "Solus-3-Budgie.iso" "solarized.zip" "Software Engineering Individual Retrospective.pdf" "Skype_7.34.164.dmg" "Silverlight.dmg" "seriescoefficients.m" "Sensors%2Band%2BLoops.mp4" "SDM.dmg" "SCRUM Final Report.pdf" "Screenshot (29).png" "Screenshot (25).png" "Screenshot (24).png" "Screen Shot 2018-01-26 at 1.53.04 AM.png" "sample_resume.doc" "RunIt.mp3" "Ruiz%2C+Chapter+1+from+_22Americans+in+the+Treasure+House_22.pdf" "Rudolph_The_Red_Nosed_Reindeer_-_Christmas_Carols_.wav" "Rudolph The Red Nosed Reindeer - Christmas Carols - Popular Christmas Songs For Children.mp3" "resume.zip" "resume.pdf" "resume-junior-year.pdf" "resume-junior-year(1).pdf" "resume-1.pdf" "resume (4).pdf" "resume (3).pdf" "resume (2).pdf" "resume (1).pdf" "ResearchPaper3Outline.docx" "ResearchPaper2Outline.docx" "ResearchPaper1Outline.docx" "refind-bin-0.11.2.zip" "refind-bin-0.11.2/" "Red Nose.vi" "Red Nose (1).vi" "Reading List(2).docx" "pwlogo.jpg" "PS11-L25.pdf" "PS10-Ex2.pdf" "PS09-L19.pdf" "PS08-L17.pdf" "PS07-L15.pdf" "PS06-L14.pdf" "PS05-L12.pdf" "PS04-L10.pdf" "PS03-L08.pdf" "PS02-L06.pdf" "PS01-L04.pdf" "proxy.duckduckgo.com.jpg" "project_muse_45863-1789286.pdf" "Project.ipynb" "Project(2).ipynb" "Project(1).ipynb" "Project Proposal.pdf" "ProgrammingPearls2nd.pdf" "Programming Pearls, 2nd Edition.pdf" "Problem 2.pdf" "PrintND_OSX.dmg" "PrintND_OSX (1).dmg" "printerinstaller.zip" "PrinterInstaller.app/" "Prelab_Lab6.11320_F2016.pdf" "Prelab_Lab5.11320_F2016.pdf" "Prelab_Lab4.11320_F2016.pdf" "Prelab_Lab3.11320_F2016.pdf" "Prelab_Lab2.11320_F2016.pdf" "Prelab_Lab1.11320_F2016.pdf" "Precarious Lunch.doc" "Postgres-2.1.4.dmg" "Physics help.pdf" "Physics 2 Ch10 problems.ppt" "Photo Essay Photo.jpg" "Philosophy+of+Religion+-+Complete+F16.ppt" "phantomjs-2.1.1-macosx.zip" "PersonaTemplates.pptx" "pdftoimage.zip" "pdftoimage(1).zip" "pdftoimage(1)/" "pdftoimage/" "pdfjs-2.0.943-dist.zip" "pdfjs-2.0.943-dist/" "Parents 2016 W2s.pdf" "Paper 2.pdf" "Paper 2 Outline.pdf" "Paper 1.pdf" "Paintbrush-2.1.2.zip" "out of the shlump keke.wav" "Out of the Margins.pdf" "OmniFocus-2.8.2.dmg" "Olympics.txt" "Old friends.m4a" "nord-vim-0.8.0.zip" "nord-vim-0.8.0/" "ND_Open_House.pdf" "ND Club Hours.xlsx" "nba_ht_wt.csv" "Naughty or Nice List.vi" "Naughty or Nice List (1).vi" "N Dakota.m4a" "myNotreDame_Quick_Start_Video.swf" "MS_United_States_Offer_Letter_UR_Internship_Program_FY19_V1.pdf" "MS_United_States_Offer_Letter_UR_Internship_Program_FY19_V1-1.pdf" "Mr yames almost took his shirt off.m4a" "MR CONNOR BACH Student Offer(1).pdf" "movements.csv" "move forward sub vi.vi" "Morrissey Picture 2017.jpg" "Morrissey Picture 2017 (1).jpg" "moon.jpg" "MN Intern Housing Info.xlsx" "MN Intern Housing Info-1.xlsx" "Minecraft.dmg" "midterm_results.pdf" "Midterm Verilog Final-20180324T015355Z-001.zip" "Midterm Verilog Final/" "Microsoft_Office_2016_15.24.0_160709_Installer.pkg" "MicroprocessorsProjectProposal.pdf" "MetroBrown.mp3" "mercury.jpg" "matlab_R2016b_maci64.dmg.zip" "matlab_R2016b_maci64.dmg" "MathWorks/" "MATH2412-inverse trig functions.pdf" "Master Plan.vi" "Master Plan (1).vi" "map.csv" "LV2016LEGO.dmg" "LogicDesignLabReportTemplate.docx" "LogicDesignLabReportTemplate-1.docx" "Logic Design Hw3.pdf" "Logic Design HW1.pdf" "Logic Design Hw 7.pdf" "Logic Design Hw 5.pdf" "Logic Design Hw 4.pdf" "Logic Design HW 2.pdf" "Logic Design HW 2 page 1.pdf" "liberalPlayer.m" "liberalPlayer (3).m" "liberalPlayer (2).m" "liberalPlayer (1).m" "left turn.vi" "Lecture 7.pptx" "League of Legends NA.dmg" "LCD_Demo1/" "LCD_Demo/" "lauralcanyon.tef" "lake.jpg" "Lab7.ipynb" "Lab7.html" "Lab6.ipynb" "Lab6.html" "Lab5.ipynb" "Lab5.html" "Lab4.pdf" "Lab4.ipynb" "Lab4(1).ipynb" "Lab2.ipynb" "Lab2.html" "lab05_Using_a_Spark_Timer.pdf" "Lab 1.html" "KindleForMac-44182.dmg" "Keeping the New Media Honest.pptx" "KATANAUSBDriver/" "katana_macd_v100.tgz" "Kaplan--Left+Alone+w+America.PDF" "Kant-Fall16.ppt" "javafx_scenebuilder-2_0-macosx-universal.dmg" "installgoogledrive.dmg" "install_flash_player_osx_ppapi.dmg" "install_flash_player_osx.dmg" "Install Spotify.app/" "Install Spotify-2.app/" "input001.txt" "InitialProjectMemo.docx" "InitialProjectMemo (1).docx" "Initial_Presentation.ppt" "Initial_Group_Deliverable.docx" "Initial_Group_Deliverable (1).docx" "IMG_2266.JPG" "IMG_2266-1.JPG" "IMG_2263.JPG" "IMG_2261.JPG" "IMG_2260.jpg" "IMG_2257.JPG" "IMG_2217.JPG" "IMG_2216.JPG" "IMG_2054.MOV" "IMG_2053.JPG" "IMG_2052.JPG" "IMG_2051.JPG" "IMG_2050.JPG" "IMG_2049.JPG" "IMG_2048.JPG" "IMG_2047.JPG" "IMG_1298.JPG" "IMG_1298 2.JPG" "IMG_1297.JPG" "IMG_1295.JPG" "IMG_1294.JPG" "IMC Application for Employment.pdf" "ii_jsoo5mw51.jpg" "ii_jsnjozc81.jpg" "ideaIC-2018.2.2.dmg" "ID_Card_502654353.pdf" "HW6 UML.pdf" "HW4_Engineering_Drawing.pdf" "Hw 4 UML.pdf" "Homework8.pdf" "Homework7.pdf" "Homework6.pdf" "Homework5.pdf" "Homework4.pdf" "Homework3.pdf" "Homework2.pdf" "Homework1.pdf" "Homework 08.pdf" "hitlerPlayer.m" "hexDisplay.pdf" "Healthcare Milestone 2.pdf" "Healthcare Milestone 1.pdf" "HCA final.pptx" "HCA final Paper.pdf" "gumballMachineProject/" "Grade+Calculator+F16.xlsx" "Gmail - Your receipt from Northern Indiana Commuter Transportation District - #N1458306-142.pdf" "Gmail - Your receipt from Northern Indiana Commuter Transportation District - #N1457722-786.pdf" "GHDL-0.24-2006Jul06.dmg" "GHDL-0.24-2006Jul06-src/" "GeoBlue Policy.pdf" "GE-69067.pdf" "FreeWill+-+Complete+F16.ppt" "forms_admin_documentation.doc" "Firefox 57.0.dmg" "Firefox 48.0.dmg" "FinalProject_Connor&Connor.html" "Final!-20170427T034418Z-001.zip" "final rudolph feeding.vi" "final rudolph feeding (1).vi" "Final Presentation.pptx" "Final Plan.vi" "Final Group 4 Presentation.pptx" "Final Group 4 Presentation (1).pptx" "FileZilla_3.27.1_macosx-x86_setup_bundled.zip" "FileZilla-Installer.app/" "Feeding Flowchart.png" "Fedora-Workstation-Live-x86_64-29-1.2.iso" "Fedora-Workstation-Live-x86_64-29-1.2(1).iso" "February_13_Sketch/" "favicon.ico" "fascistPlayer.m" "Fall Semester 2018.ics" "Fall Semester 2017.ics" "fafsa.pdf" "Eyeglass Prescription.jpg" "Extra_Credit.pdf" "Experiment 6_F2016_v2.pdf" "Experiment 3_2017.pdf" "ExpanDriveND.zip" "Expanding%2BCase%2BStructures.mp4" "Exam 1 Study Guide.pdf" "EthicsIntroCultRelFall2016.pptx" "Ethics_Aristotle_shortFall2016.ppt" "Ethics-War-Peace-Fall2016.ppt" "Etcher-1.3.1.dmg" "Essay Questions.docx" "EpicInstaller-9.11.2-unrealengine.dmg" "EpicInstaller-7.2.1-fortnite.dmg" "EE+10114+-+Video+1b+-+Breadboard.mp4" "EE+10114+-+Video+1a+-+Breadboard.mp4" "eclipse-inst-mac64.tar.gz" "Eclipse Installer.app/" "earth.jpg" "dues_form_2017.docx" "Drug Disclosure Authorization Connor Bach.pdf" "Drone Project 1st Deliverable.pdf" "DrivingDistances.csv" "Dread_the_Antarctic.pdf" "Downloader_Diablo2_Lord_of_Destruction_enUS.zip" "Downloader_Diablo2_enUS.zip" "Downloader.app/" "Downloader 2.app/" "Dissolvable Agent.dmg" "displayRTL.pdf" "Discord.dmg" "denovo_v1_x86" "denovo_v1_arm" "demographics.csv" "demo-pidarts.zip" "demo-pidarts/" "demo-metaball.zip" "demo-metaball/" "Decisions%2Bwith%2BComparisons.mp4" "DE2_115_pin_assignments.csv" "DE2_115_pin_assignments-1.csv" "d5910046.zip" "coversheet.docx" "counter control square.vi" "Copy of Summer 2019 Internships for Pascal.xlsx" "Conways_Game_of_Life-master/" "ConnorBachResume90518.pdf" "ConnorBachResearchPaper3.docx" "ConnorBachResearchPaper3 (2).docx" "ConnorBachResearchPaper3 (1).docx" "ConnorBachResearchPaper2.docx" "ConnorBachResearchPaper2 (2).docx" "ConnorBachResearchPaper2 (1).docx" "ConnorBachResearchPaper1.docx" "ConnorBachResearchPaper1 (1).docx" "ConnorBachHw7.pdf" "ConnorBachHW3.MOV" "ConnorBachHousingForm.png" "ConnorBachCommentaryWeek7.docx" "ConnorBachCommentaryWeek7 (1).docx" "ConnorBachCommentaryWeek6.docx" "ConnorBachCommentaryWeek6 (1).docx" "ConnorBachCommentaryWeek4.docx" "ConnorBachCommentaryWeek4 (2).docx" "ConnorBachCommentaryWeek4 (1).docx" "ConnorBachCommentaryWeek3.docx" "ConnorBachCommentaryWeek3 (2).docx" "ConnorBachCommentaryWeek3 (1).docx" "ConnorBachCommentaryWeek2.docx" "ConnorBachCommentaryWeek2 (2).docx" "ConnorBachCommentaryWeek2 (1).docx" "ConnorBachCommentary1.docx" "CONNOR_BACH_2018.pdf" "Connor Immunization Record.pdf" "Connor Bach Project Report.pdf" "Connor Bach FAFSA SAR 2018-2019.pdf" "Connor Bach Criminal History Self Disclosure (PII)_Revised_5.9.17.pdf" "Connor Bach Absentee Ballot Application.pdf" "Connor 2016 Taxes.pdf" "Computer Graphics Project Proposal.pdf" "completed-transcript-15440054.pdf" "company.20181001.idx" "Colloquy.app/" "colloquy-latest.zip" "colloquy-latest-1.zip" "Code_Waveform.pdf" "code.zip" "Code.pdf" "Code w_Waveform.pdf" "Code w_Waveform.docx" "code/" "citation-284052774.bib" "Cisco_WebEx_Add-On.dmg" "circuit-construction-kit-ac-virtual-lab_en.jnlp" "circuit-construction-kit-ac-virtual-lab_en-1.jnlp" "circuit-construction-kit-ac-virtual-lab_en (1).jnlp" "chromedriver_mac64.zip" "Chip Final UML.pdf" "Chapter 11 Appendix A slides.ppt" "Chapter 11 Appendix A slides-1.ppt" "Chaos Monkey Individual Eval.pdf" "ch9ex.ppt" "Ch8-problems.docx" "CaseStudy.ipynb" "Case%2BStuctues%2Bin%2BLabVIEW.mp4" "Can_Satire_be_Merciful.pdf" "calc.pdf" "bts_katana_m102.zip" "bts_katana_m102/" "bootstrap.py" "bootstrap-4.1.1-dist.zip" "bootstrap-4.1.1-dist/" "bootstrap-4.0.0.zip" "bootstrap-4.0.0/" "bootstrap-3.3.7-dist.zip" "bootstrap-3.3.7-dist(1).zip" "bootstrap-3.3.7-dist 2/" "bootstrap-3.3.7-dist/" "BlackMtRage.tef" "BlackjackToolUpdated.zip" "BigSciota.tef" "Belvedere Trading Recruiting Expense Form.xls" "BattleOfTheBands.MOV" "Battle.net-Setup.zip" "Battle.net-Setup.app/" "Battle of the Bands Audition/" "Basic Locomotion.vi" "Basic Locomotion (1).vi" "Barretstown-Vetting-and-Self-Declaration-Form.pdf" "Barretstown-Vetting-and-Self-Declaration-Form(1).pdf" "BachYoshidaLab01.JPG" "BachConnorResume.pdf" "BachConnor.jpg" "BachConnor-1.jpg" "Bach_ResearchPaper3Outline.docx" "Bach_ResearchPaper2Outline.docx" "Bach_ResearchPaper1Outline.docx" "Bach, Connor - Cultural Analysis.docx" "Bach, Connor - Cultural Analysis-3.docx" "Bach, Connor - Cultural Analysis-2.docx" "Bach, Connor - Cultural Analysis-1.docx" "Bach St3009 Hw4.pdf" "Bach ST3009 Hw3.pdf" "Bach ST3009 Hw2.pdf" "Bach ST3009 Hw1.pdf" "Bach Connor Belvedere Trading Recruiting Expense Form.xls" "Bach Connor - Exam 1.docx" "B-small-attempt4.in" "B-small-attempt3.in" "B-small-attempt0.in" "Autumn-Leaves-Chord-Melody-Etude-1.pdf" "Autumn Leaves Tab - By Lucas Brar.pdf" "audacity-macosx-ub-2.1.2.dmg" "Atom.app/" "atom-mac.zip" "atom-mac(1).zip" "Atom 2.app/" "Assignment_3_Notebook-2.ipynb" "Assignment_3_Notebook-1.ipynb" "Assignment_3_Notebook-1(1).html" "Assignment_2_Notebook-3.ipynb" "Assignment_2_Notebook-3.html" "Assignment_2_Notebook-2.ipynb" "Assignment_2_Notebook-2.html" "Assignment_2_Notebook-1.ipynb" "Assignment_2_Notebook-1.html" "Assignment_1.ipynb" "assignment-8/" "arduino-1.8.1-macosx-signed.zip" "April+11+Group+Project+Update.docx" "Anaconda3-5.2.0-Linux-x86_64.sh" "Alrighty Aphrodite.m4a" "allpass.m" "Airavata-GSoC-Introduction.pptx" "adderRTL.pdf" "Activity1-1.pdf" "a22c0238.zip" "A-small-attempt0.in" "A-large.in" "9ab01348.zip" "90 degree turn sub vi.vi" "8.zip" "8(1).zip" "6d5768ba.zip" "663ad9fa.zip" "65cf25ef.zip" "63a99723.zip" "6174526b.zip" "524f141e.zip" "5.zip" "2_mp3_files (online-audio-converter.com).zip" "27 - Final exam review.pptx" "27 - Final exam review-1.pptx" "26 - Graphs Intro..pptx" "24-25 - Solving Linear Recurrences.pptx" "2019GolfTourneyFlier.png" "2019GolfTourneyFlier.pdf" "2018_Bach_Connor.pdf" "2018-Absent-Voter-Ballot-Application.pdf" "2017_golf_outing_form.docx" "2016_golf_outing_form.docx" "20130423230739the_outlaws_of_the_marsh_pdf.pdf" "20 - Permutations and Combinations.pptx" "20 - Permutations and Combinations-1.pptx" "19 - Counting.pptx" "18 - Recursive Definitions.pptx" "17 - Mathematical Induction.pptx" "17 - Mathematical Induction (1).pptx" "16 EG Program Requirement Checklist.pdf" "16 - Primes, GCDs.pptx" "15276672_1802309323214124_7538153060338499584_n.jpg" "15 - Modular Arithmetic, Exponentiation.pptx" "14 - Exam 1 review.pptx" "13 - Analyzing Complexities of Algorithms.pptx" "12 - Complexity of Algorithms.pptx" "100497896570.sdx" "1.jpg" "090902007c_PASCAL.pdf" "090902007c_PASCAL (1).pdf" "090902005c_DESCARTES.pdf" "090902004c_SEARLE.pdf" "090901004c_JACKSON.pdf" "090826006c_STACE.pdf" "090819005c_ROWE.pdf" "090819004c_DAVIS.pdf" "09 - Functions, Sequences and Cardinality of Sets.pptx" "08 - Sets and Set Operations.pptx" "0744c9b6-8b24-4240-906c-ceee3971869c.csv" "050818012_RACHELS.pdf" "03 - Propositional Logic & Equivalences.pptx" "02 - Propositional Logic.pptx" "01 - Introduction & Overview.pptx" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/scratch/" (23744 30158 0 0) "law_of_large_numbers.py" "hashbang.sh" "ans.hs" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/nd_dh_guide/" (23741 270 0 0) "src/" "README.md" "public/" "package.json" "package-lock.json" "notes.org" "node_modules/" "build/" ".gitignore" ".git/" ".eslintrc.json" ".env.local" ".env" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/nd_dh_guide/src/" (23738 27446 0 0) "utils/" "serviceWorker.js" "logo.svg" "index.js" "index.css" "history.js" "Components/" "App.test.js" "App.js" "App.css" "api/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dinosaurs/" (23738 20458 0 0) "render_functions.py" "pyvenv.cfg" "map_objects/" "lib/" "input_handlers.py" "include/" "entity.py" "engine.py" "bin/" "arial10x10.png" "__pycache__/" ".git/" "../" "./")
+
+ ("/Users/connorbach/Documents/nd_club/" (23738 2614 0 0) "emails.org" "../" "./")
+
+ ("/Users/connorbach/Documents/" (23738 17455 0 0) "WebEx/" "void-live-x86_64-20171007-lxde.iso" "ubuntu-17.10.1-desktop-amd64.iso" "Trinity/" "tomorrow-theme/" "Test/" "temp/" "TablEdit/" "SystemsProgramming/" "Sound Conversion/" "Solus-3-Budgie.iso" "solarized.zip" "solarized/" "Screen Shot 2016-11-03 at 1.02.35 AM.png" "Robot/" "report.pdf" "RedWings/" "projects/" "portfolio-page.zip" "portfolio-page/" "Novel/" "NOTRE DAME FIGHTING IRISH _ Online Ticket Office _ Thank You For Your Order.pdf" "ndPortfolio.txt" "nd_club/" "ND FIM Application.pages" "ND Club/" "ND/" "misc/" "MATLAB/" "LV2016LEGO/" "lubuntu-17.10.1-desktop-amd64.iso" "leetcode/" "League of Legends/" "LastBites/" "labvire/" "LabVIEW Data/" "kick.txt" "Keeping the New Media Honest.pptx" "Jurassic_Park_III.iso_.sit" "HW6.vi" "gruvbox/" "GameProject/" "Game of Life/" "FSM.jpg" "Flashdrive backup/" "final rudolph feeding (1).vi" "Final Cases/" "Feeding Flowchart.png" "FedoraMediaWriter-osx-4.1.1.dmg" "fatigue_src/" "f5e53608.zip" "extraItermColors/" "Engineering/" "en_windows_embedded_8.1_industry_pro_with_update_x64_dvd_4065122.iso" "df_osx/" "cse-20289-sp18-assignments/" "ConnorBachND_vogpfx.jpg" "connorbach/" "Connor Bach3Red.docx" "Connor Bach Presentation.pptx" "Chemistry/" "BachConnorResume.pdf" "BachConnorCV3Red.pdf" "BachConnorCoverLetter.pdf" "BachConnorCoverLetter.docx" "BachConnnorPassport.pdf" "Bach Connor - Exam 1.docx" "Arduino/" ":q/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/dinosaurs/map_objects/" (23736 58610 0 0) "tile.py" "rectangle.py" "game_map.py" "__pycache__/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/src/clojure_sols/" (23735 47533 0 0) "list_rep.clj" "input.txt" "hello_n_times.clj" "core.clj" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/elixir/" (23698 39232 0 0) "update_list.exs" "sum_of_odd_elements.exs" "reverse_list.exs" "polygon_perimeter.exs" "polygon_area.exs" "list_replication.exs" "list_length.exs" "input.txt" "hello_world_n_times.exs" "function_or_not.exs" "filter_pos.exs" "filter_array.exs" "eval_ex.exs" "array_of_n_elems.exs" "area_under_curve.exs" ".git/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/" (23735 41263 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".nrepl-port" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure_sols/src/" (23735 41215 0 0) "clojure_sols/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/" (23735 41215 0 0) "elixir/" "clojure_sols/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/functional/clojure/" (23735 41046 0 0) "../" "./")
+
+ ("/Users/connorbach/Documents/projects/Hacktoberfest2018/" (23499 22700 0 0) "vscode-tips-and-tricks/" "scrap/" "ripasso/" "jobbyjobjob/" "habitctl/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/hackerrank/" (23735 23158 0 0) "temp.py" "lca.py" "height_of_binary_tree.py" "functional/" "../" "./")
+
+ ("/Users/connorbach/Documents/ND/" (23734 28847 0 0) "University of Notre Dame Mail - 2018:2019 Financial Aid Notification.pdf" "theory/" "systems/" "Study Plan While Abroad.pdf" "softwareEng/" "Software Engineering/" "Screen Shot 2018-03-28 at 2.49.02 PM.png" "Screen Shot 2018-03-28 at 2.47.58 PM.png" "scholarship_thankyou.org" "paper.org~" "outline.org~" "os/" "NOTRE DAME FIGHTING IRISH | Online Ticket Office | Thank You For Your Order.pdf" "logic/" "irish_lit/" "intro_to_ireland/" "healthcare/" "graphics/" "data_struct/" "data_colab/" "cse-30341-fa18-assignments/" "cs4good/" "ConnorBachStudyAbroad.pdf" "chinese_lit/" "BachConnorScholarshipAcceptance.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/Trinity/philo/final_paper/" (23734 20614 0 0) "SubmitReceipt.pdf" "outline.tex" "outline.pdf" "outline.org" "HOLRFI.1.pdf" "HOLRFI.1.doc" "final_paper.tex" "final_paper.pdf" "final_paper.org" "final_paper.bbl" "Cover Sheet.docx" "bias.bib" "BachPaper.pdf" "426957.pdf" "2019GolfTourneyFlier.png" ".git/" "../" "./")
+
+ ("/Users/connorbach/Documents/ND/intro_to_ireland/" (23732 48622 0 0) "paper.tex" "paper.pdf" "paper.org~" "paper.org" "paper.html" "paper.dvi" "paper.bib" "paper.bbl" "outline.org~" "outline.org" "final.org" ".git/" "'" "../" "./")
+
+ ("/Users/connorbach/Desktop/" (23734 29788 0 0) "US Intern PDF.docx" "Powered by BOSSCARS 7.0.0 -.pdf" "optum_tax_case_number.txt" "omni.txt" "Gmail - Aer Lingus Confirmation - Booking Ref: 2QM6VW.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/leetcode/" (23734 34357 0 0) "twoSet.hs" "scratch.py" "outer_parens.py" "outer_parens.c" "grading.hs" "a.out" "../" "./")
+
+ ("/Users/connorbach/Documents/Trinity/" (23731 45704 0 0) "stats/" "philo/" "examAdvice.tex" "examAdvice.pdf" "examAdvice.org" "compArch/" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/team_dungeon/" (23731 24668 0 0) "server.js" "package.json" "package-lock.json" "notes.org" "node_modules/" "main.js" "jsconfig.json" "index.html" "app.js" ".eslintrc" "../" "./")
+
+ ("/Users/connorbach/Documents/connorbach/ConnorBach.github.io/_posts/" (23717 18403 0 0) "2019-4-2-writing-papers-with-emacs.md" "2019-3-21-learning-elixir-with-hackerrank.md" "2018-12-23-reverse-proxy-with-netflix-zuul.md" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/clojure_roguelike/" (23719 50276 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/clojure_roguelike/src/clojure_roguelike/" (23719 50193 0 0) "core.clj" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/clojure_roguelike/src/" (23719 50042 0 0) "clojure_roguelike/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/ctetris/" (23719 16827 0 0) "Makefile" "main.c" "main" "../" "./")
+
+ ("/Users/connorbach/Documents/misc/" (23717 14220 0 0) "video ordering.txt" "Video Deliverable.mp4" "test.html" "source-code-pro-variable-fonts/" "Screen Shot 2017-12-13 at 6.28.53 PM.png" "Screen Shot 2017-12-13 at 6.27.55 PM.png" "Screen Shot 2017-12-13 at 5.48.47 PM.png" "Screen Shot 2017-12-13 at 5.48.43 PM.png" "Screen Shot 2017-12-13 at 5.48.29 PM.png" "Screen Shot 2017-12-13 at 5.45.55 PM.png" "Screen Shot 2017-12-13 at 5.45.49 PM.png" "Screen Shot 2017-12-13 at 5.45.27 PM.png" "Screen Shot 2017-12-13 at 5.43.17 PM.png" "Screen Shot 2017-12-13 at 5.41.14 PM.png" "Screen Shot 2017-12-13 at 5.38.09 PM.png" "Screen Shot 2017-12-13 at 5.37.09 PM.png" "Screen Shot 2017-12-13 at 5.28.43 PM.png" "Screen Shot 2017-11-13 at 11.39.28 PM.png" "Screen Shot 2017-11-13 at 11.32.05 PM.png" "Screen Shot 2017-11-13 at 11.31.19 PM.png" "Screen Shot 2017-11-13 at 11.27.33 PM.png" "Screen Shot 2017-11-13 at 11.24.05 PM.png" "Screen Shot 2017-11-13 at 11.23.37 PM.png" "Screen Shot 2017-11-13 at 11.22.21 PM.png" "Screen Shot 2017-11-13 at 11.22.16 PM.png" "Screen Shot 2017-11-13 at 10.51.17 PM.png" "Screen Shot 2017-11-13 at 10.45.27 PM.png" "Screen Shot 2017-11-13 at 10.44.44 PM.png" "Screen Shot 2017-11-06 at 11.51.29 AM.png" "Screen Shot 2017-11-05 at 7.21.04 PM.png" "Screen Shot 2017-10-29 at 9.18.33 PM.png" "Screen Shot 2017-10-10 at 12.22.52 AM.png" "Screen Shot 2017-10-10 at 12.18.32 AM.png" "Screen Shot 2017-10-10 at 12.16.22 AM.png" "Screen Shot 2017-10-10 at 12.13.37 AM.png" "Screen Shot 2017-10-10 at 12.11.33 AM.png" "Screen Shot 2017-10-10 at 12.10.16 AM.png" "Screen Shot 2017-10-10 at 12.09.31 AM.png" "Screen Shot 2017-10-09 at 8.53.30 PM.png" "Screen Shot 2017-10-09 at 8.47.47 PM.png" "Screen Shot 2017-10-09 at 8.44.06 PM.png" "Screen Shot 2017-10-09 at 8.42.45 PM.png" "Screen Shot 2017-10-09 at 7.50.30 PM.png" "Screen Shot 2017-10-09 at 7.50.17 PM.png" "Screen Shot 2017-10-09 at 7.50.08 PM.png" "Screen Shot 2017-10-09 at 7.50.01 PM.png" "Screen Shot 2017-10-09 at 7.49.10 PM.png" "Screen Shot 2017-10-09 at 7.46.22 PM.png" "Screen Shot 2017-10-09 at 11.57.17 PM.png" "Screen Shot 2017-05-12 at 11.00.53 AM.png" "Screen Shot 2017-05-12 at 10.57.46 AM.png" "Screen Shot 2017-05-12 at 10.56.16 AM.png" "Screen Shot 2017-05-02 at 9.29.53 PM.png" "Screen Shot 2017-04-28 at 1.43.59 AM.png" "Screen Shot 2017-04-17 at 9.20.17 PM.png" "Screen Shot 2017-04-13 at 1.16.13 AM.png" "Screen Shot 2017-04-13 at 1.16.06 AM.png" "Screen Shot 2017-04-13 at 1.15.52 AM.png" "Screen Shot 2017-04-11 at 9.07.10 PM.png" "Screen Shot 2017-04-06 at 2.53.51 PM.png" "Screen Shot 2017-04-06 at 2.53.45 PM.png" "Screen Shot 2017-04-06 at 2.50.06 PM.png" "Screen Shot 2017-04-06 at 2.50.00 PM.png" "Screen Shot 2017-04-06 at 2.49.50 PM.png" "Screen Shot 2017-04-06 at 1.43.13 PM.png" "Screen Shot 2017-03-31 at 2.24.42 AM.png" "Screen Shot 2017-03-31 at 2.24.33 AM.png" "Screen Shot 2017-03-31 at 2.24.23 AM.png" "Screen Shot 2017-03-30 at 9.44.51 PM.png" "Screen Shot 2017-03-30 at 2.25.17 AM.png" "Screen Shot 2017-03-30 at 2.23.36 AM.png" "Screen Shot 2017-03-30 at 2.18.47 AM.png" "Screen Shot 2017-03-22 at 12.31.04 PM.png" "Screen Shot 2017-03-22 at 12.04.22 PM.png" "Screen Shot 2017-02-22 at 8.52.11 PM.png" "Screen Shot 2017-02-16 at 10.25.43 PM.png" "Screen Shot 2017-02-16 at 10.22.51 PM.png" "resume.pdf" "Receipt.pdf" "practice.cpp" "plotlogistic.jpg" "plotdamped.jpg" "Old Firefox Data/" "NOTRE DAME FIGHTING IRISH _ Online Ticket Office _ Thank You For Your Order.pdf" "noahConfig" "Merge Two Binary Trees - LeetCode_files/" "Merge Two Binary Trees - LeetCode.htm" "Math for Everyone Email" "letter.org" "Initial Presentation.pdf" "index.html" "IMG_1453.jpg" "img.JPG" "idea.txt" "hw4graph.jpg" "HitVideo-20170502T005715Z-001.zip" "HitVideo/" "Final Presentation.pdf" "Final Group 4 Presentation.pptx" "fafsa.txt" "exam2_2002.pdf" "dues_members_2018_banner.jpg" "Drug Disclosure Authorization Connor Bach.pdf" "discmath.cpp" "Connor_Bach_HW2.MOV" "CNA/" "Candidate Reimbursement Form.pdf" "BachConnorHonesty.pdf" "Average_and_RMS_valueswith_Summer/" "Average_and_RMS_values/" "Array Partition I - LeetCode_files/" "a.out" "20130423230739the_outlaws_of_the_marsh_pdf.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/connorbach/ConnorBach.github.io/" (23601 25792 0 0) "thanks.md" "README.txt" "README.md" "Rakefile" "license.txt" "index.html" "images/" "Gemfile.lock" "Gemfile" "feed.xml" "fb-instant-articles.xml" "favicon.ico" "favicon-96x96.png" "favicon-32x32.png" "favicon-192x192.png" "favicon-16x16.png" "favicon-160x160.png" "css/" "contact.html" "CNAME" "BachConnorResume.pdf" "apple-touch-icon.png" "apple-touch-icon-76x76.png" "apple-touch-icon-72x72.png" "apple-touch-icon-60x60.png" "apple-touch-icon-57x57.png" "apple-touch-icon-180x180.png" "apple-touch-icon-152x152.png" "apple-touch-icon-144x144.png" "apple-touch-icon-120x120.png" "apple-touch-icon-114x114.png" "about.md" "_site/" "_sass/" "_posts/" "_layouts/" "_includes/" "_config.yml" "404.md" ".travis.yml" ".sass-cache/" ".index.html.swp" ".gitignore" ".github/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Documents/connorbach/" (23564 41528 0 0) "startbootstrap-grayscale-gh-pages/" "pixyll/" "ConnorBach.github.io/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro to Ireland/" (23708 1764 0 0) "paper.tex" "paper.pdf" "paper.org~" "paper.org" "paper.html" "paper.dvi" "paper.bib" "paper.bbl" "outline.org~" "outline.org" "#outline.org#" "../" "./")
+
+ ("/bin/" (23534 30597 0 0) "zsh" "wait4path" "unlink" "test" "tcsh" "sync" "stty" "sleep" "sh" "rmdir" "rm" "pwd" "ps" "pax" "mv" "mkdir" "ls" "ln" "link" "launchctl" "ksh" "kill" "hostname" "expr" "ed" "echo" "domainname" "df" "dd" "date" "csh" "cp" "chmod" "cat" "bash" "[" "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/" (23706 53144 0 0) "UML Hw 3.gslides" "Summer 2019 Internships.gsheet" "Intro to Ireland/" "Copy of Summer 2019 Internships for Rafi.gsheet" "Copy of Summer 2019 Internships for Pat.gsheet" "Copy of Summer 2019 Internships for Pascal.gsheet" "Chip Final UML.gslides" "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/Junior Year/Intro/" (23706 53108 0 0) "../" "./")
+
+ ("/Users/connorbach/Google Drive/Notre Dame/" (23391 51505 0 0) "Sophomore Year/" "Scholarship Thank You 2017.pdf" "Junior Year/" "Freshman Year/" "2018 Members.gdoc" ".DS_Store" "../" "./")
+
+ ("/Users/connorbach/Google Drive/" (23706 53050 0 0) "Untitled document.gdoc" "Trinity/" "Travel List.gdoc" "Scholarship Thank You 2018.pages" "Scholarship Thank You 2017.pdf" "Projects/" "Personal/" "Passwords.docx" "Observations Bonaventure.gdoc" "Notre Dame/" "KeePass-2.34/" "Icon
+" "High School/" "Greece Expenses.gsheet" "Feeding Flowchart.html" "Exam 2 Study Guide.gdoc" "Csforgood%20(2).png" "Copy of Kirby Bach - Biography_Interview_Questions.gdoc" "Connor Bach Acceptance Agreement.jpeg" "companies.pdf.pdf" "Bach St3009 Hw4 - Line chart 2.gsheet" "Bach St3009 Hw4 - Column chart 2.gsheet" "Bach St3009 Hw4 - Column chart 1.gsheet" "Audio Track.wav" "Audio Track-6.wav" "Audio Track-5.wav" "Audio Track-4.wav" "Audio Track-3.wav" "Audio Track-2.wav" ".tmp.drivedownload/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22502 33135 0 0) "Shared/" "Guest/" "connorbach/" ".localized" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/scratch/" (23706 52988 0 0) "temp.org~" "temp.org" "temp.c" "output.txt" "exam.py" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/alphabet_cipher/" (23524 38310 0 0) "coder.clj" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/src/" (23523 53132 0 0) "alphabet_cipher/" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/alphabet-cipher/" (23523 53162 0 0) "test/" "target/" "src/" "README.md" "project.clj" "LICENSE" "doc/" ".nrepl-port" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/connorbach/Documents/projects/wonderland-clojure-katas/" (23523 53132 0 0) "wonderland-number/" "tiny-maze/" "README.md" "magic-square/" "LICENSE" "images/" "fox-goose-bag-of-corn/" "doublets/" "card-game-war/" "alphabet-cipher/" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

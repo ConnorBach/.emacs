@@ -1,0 +1,40 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".doi.org"
+  [url-cookie "__cfduid" "d98dbb15231031607c5a053131c02c0561553689787" "Thu, 26-Mar-20 12:29:47 GMT" "/" ".doi.org" nil])
+ (".journals.uchicago.edu"
+  [url-cookie "__cfduid" "d5c22b3bc046dda25ad69a3ef450f5a471554071796" "Mon, 30-Mar-20 22:36:36 GMT" "/" ".journals.uchicago.edu" nil])
+ (".onlinelibrary.wiley.com"
+  [url-cookie "MACHINE_LAST_SEEN" "2019-03-31T15%3A36%3A10.583-07%3A00" "Sat, 25-Jan-2020 22:36:10 GMT" "/" ".onlinelibrary.wiley.com" nil]
+  [url-cookie "MAID" "s1wzandjgE+ly6Z7pl91Rg==" "Sat, 25-Jan-2020 22:36:10 GMT" "/" ".onlinelibrary.wiley.com" nil])
+ ("onlinelibrary.wiley.com"
+  [url-cookie "MACHINE_LAST_SEEN" "2019-03-31T15%3A36%3A10.583-07%3A00" "Sat, 25-Jan-2020 22:36:10 GMT" "/" "onlinelibrary.wiley.com" nil]
+  [url-cookie "MAID" "s1wzandjgE+ly6Z7pl91Rg==" "Sat, 25-Jan-2020 22:36:10 GMT" "/" "onlinelibrary.wiley.com" nil]
+  [url-cookie "I2KBRCK" "1" "Mon, 30-Mar-2020 22:36:09 GMT" "/" "onlinelibrary.wiley.com" nil])
+ (".sciencedirect.com"
+  [url-cookie "EUID" "659c0dc2-ac98-46f6-b517-2160719a878b" "Sun, 27 Mar 2039 12:29:54 GMT" "/" ".sciencedirect.com" nil])
+ (".reddit.com"
+  [url-cookie "rseor3" "true" "Thu, 09 May 2019 09:19:58 GMT" "/" ".reddit.com" nil]
+  [url-cookie "rabt" "" "Thu, 09 May 2019 09:19:58 GMT" "/" ".reddit.com" nil])
+ ("linkinghub.elsevier.com"
+  [url-cookie "visitorId" "N1J0nUC8piQlGryullyp" "Mon Apr 14 18:55:12 2087 GMT" "/" "linkinghub.elsevier.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".reddit.com"
+  [url-cookie "loid" "00000000003kihos47.2.1554801597905.Z0FBQUFBQmNyR085dl9XNzgyek9wTHR6emlZYVpWMm1rSkZKWUxHUTlMTm01YjF3bDRkV2hLQ25mRWlMWjUxWFYxQUl1WG9aMkpQeUZVY2I4dWZaSXZKTE8tNjNSZlF5ZEdtdDVBVG5qVUFEMTBiZU9JYUY4WDhxYUdHdHA5UEJ5RHQyckpCXzV3bHY" "Fri, 09 Apr 2021 09:19:57 GMT" "/" ".reddit.com" t]
+  [url-cookie "token" "eyJhY2Nlc3NUb2tlbiI6Ii1TRUlMM3lvVmxIbUp0UDZtQTJKV3E3N2lObjQiLCJ0b2tlblR5cGUiOiJiZWFyZXIiLCJleHBpcmVzIjoiMjAxOS0wNC0wOVQxMDoxOTo1OC4wMDBaIiwic2NvcGUiOiIqIiwidW5zYWZlTG9nZ2VkT3V0Ijp0cnVlfQ==.2" "Fri, 09 Apr 2021 09:19:58 GMT" "/" ".reddit.com" t]
+  [url-cookie "eu_cookie_v2" "2" "Mon, 09 Apr 2029 09:20:31 GMT" "/" ".reddit.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "kzpDrwbBtG2TMusZU9" "Thu Apr 08 09:20:13 2021 GMT" "/" "reddit.com" t])
+ (".journals.uchicago.edu"
+  [url-cookie "MACHINE_LAST_SEEN" "2019-03-31T15%3A36%3A37.874-07%3A00" "Sat, 25-Jan-2020 22:36:37 GMT" "/" ".journals.uchicago.edu" t]
+  [url-cookie "MAID" "UF33ZF/hn3+/hXTPEnQenQ==" "Sat, 25-Jan-2020 22:36:37 GMT" "/" ".journals.uchicago.edu" t]
+  [url-cookie "I2KBRCK" "1" "Mon, 30-Mar-2020 22:36:36 GMT" "/" ".journals.uchicago.edu" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

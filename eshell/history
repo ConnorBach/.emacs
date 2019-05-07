@@ -1,0 +1,128 @@
+ls
+clearls
+clear
+clear
+ls
+cd ..
+cd ..
+cd leetcode/
+ls
+cd ..
+cd projects/
+ls
+cd hackerrank/
+ls
+cd functional/
+ls
+mkdir clojure
+cd clojure/
+clearls
+clear
+cd Documents/projects/hackerrank/functional/
+ls
+lein
+lein new clojure
+lein new clojureSolutions
+lein new clojure_sols
+ls
+cd clojure_sols/
+ls
+cd src/
+ls
+cd clojure_sols/
+ls
+ls
+pwd
+cd sr
+ls
+clojure core.clj 
+clojure core.clj 
+3
+clojure core.clj 
+clojure core.clj 
+clojure list_rep.clj 
+clojure list_rep.clj 
+2
+vim input.txt
+clear
+cat input.txt | clojure list_rep.clj 
+cat input.txt | clojure list_rep.clj 
+clear
+python3 engine.py 
+python3 venv
+python3 -m venv
+python3 -m venv .
+ls
+source bin/activate
+source bin/activate
+clear
+python3 engine.py 
+clear
+clear
+python3 engine.py 
+curl https://bytebucket.org/libtcod/libtcod/raw/380d86ed61881430d56051d0bce6f10bc63c0b27/data/fonts/arial10x10.png | arial10x10.png
+curl https://bytebucket.org/libtcod/libtcod/raw/380d86ed61881430d56051d0bce6f10bc63c0b27/data/fonts/arial10x10.png > arial10x10.png
+ls
+python3 engine.py 
+python3 engine.py 
+ls
+python3 engine.py 
+python3 engine.py 
+ls
+find-file arial10x10.png 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+git init
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+mkdir map_objects
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+cd ..
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 engine.py 
+python3 law_of_large_numbers.py 
+python3 height_of_binary_tree.py 
+python3 law_of_large_numbers.py 
+python3 law_of_large_numbers.py 
+python3 law_of_large_numbers.py 
+python3 law_of_large_numbers.py 
+python3 law_of_large_numbers.py 
+python3 law_of_large_numbers.py 
+cd ~/Documents/Trinity/stats/
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+python3 2017_2dii.py 
+clear
+clear
